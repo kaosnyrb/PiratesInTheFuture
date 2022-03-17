@@ -1,0 +1,12 @@
+Milestone 2
+05/02/08
+Bryn Stringer (f6063476)
+
+Changelog:
+Setup triangle drawing and vertex format
+
+Test:
+A quad should be drawn on the screen, with gradient colours.
+
+Result:
+Quad was drawn succesfully, and closed cleanly with no memory leaks.

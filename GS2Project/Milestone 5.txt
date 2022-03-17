@@ -1,0 +1,12 @@
+Milestone 5
+25/02/08
+Bryn Stringer (f6063476)
+
+Changelog:
+Created black boxed World component.
+
+Test:
+World component could load and draw models through the Visualisation component.
+Result:
+Models could be loaded and drawn in different locations and updated.
+

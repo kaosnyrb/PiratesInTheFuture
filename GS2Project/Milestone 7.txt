@@ -1,0 +1,12 @@
+Milestone 6
+04/03/08
+Bryn Stringer (f6063476)
+
+Changelog:
+Add Media core, Direct show component allowing video playback.
+Add Control core, Direct input component allowing input.
+
+Test:
+On startup display the intro in the main window.
+Result:
+Intro displays.

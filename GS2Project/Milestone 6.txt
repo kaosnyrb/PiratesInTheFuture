@@ -1,0 +1,24 @@
+Milestone 6
+29/02/08
+Bryn Stringer (f6063476)
+
+Changelog:
+Update Triangle List in visualisation component to accept a height map array.
+Created Visualisation interface for creating Triangle lists.
+Created in the world core a "Sea" class, containing the ripple algorithm.
+
+Test:
+Draw a flat triangle list, representing the "sea" in the game.
+Result:
+A flat quad made of triangles was created and displayed correctly.
+
+Test:
+Draw a non-flat triangle list, by passing an array from the sea class in the world to the 
+triangle list in the visualistion.
+Result:
+Non-flat list drawn, without correct normals.
+
+Test:
+Test the ripple algorithm by connecting it to the triangle lists height map.
+Result:
+Rough version of the ripple algorithm in place, tweaking required.

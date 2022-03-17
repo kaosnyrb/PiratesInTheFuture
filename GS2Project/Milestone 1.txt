@@ -1,0 +1,12 @@
+Milestone 1
+29/01/08
+Bryn Stringer (f6063476)
+
+Changelog:
+Setup up window and direct x component.
+
+Test:
+clear the screen to a horrible pinky colour.
+
+Result:
+The screen was set to the disired colour, and closed cleanly

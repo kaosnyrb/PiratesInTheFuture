@@ -1,0 +1,31 @@
+	//Camera Controls
+	float MoveSpeed = 0.5f;
+
+	if ( Controls->GetKeyState(DIK_W) )
+	{
+		Graphics->MoveCamera(2,MoveSpeed);
+	}
+	if ( Controls->GetKeyState(DIK_A) )
+	{
+		Graphics->MoveCamera(1,-MoveSpeed);
+	}
+	if ( Controls->GetKeyState(DIK_S) )
+	{
+		Graphics->MoveCamera(2,-MoveSpeed);
+	}
+	if ( Controls->GetKeyState(DIK_D) )
+	{
+		Graphics->MoveCamera(1,MoveSpeed);
+	}
+	if ( Controls->GetKeyState(DIK_R) )
+	{
+		Graphics->MoveCamera(0,MoveSpeed);
+	}
+	if ( Controls->GetKeyState(DIK_F) )
+	{
+		Graphics->MoveCamera(0,-MoveSpeed);
+	}
+	LONG DeltaX,DeltaY;
+	Controls->GetMouseMoveDelta(DeltaX,DeltaY);
+	Graphics->RotateCamera(0,DeltaX/5);
+	Graphics->RotateCamera(1,DeltaY/5);
